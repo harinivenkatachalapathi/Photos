@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="vbox" spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.selectAlbumController">
+    <Label text="Select an Album"/>
+    <ListView fx:id="albumListView" prefHeight="200" />
+    <Button fx:id="selectButton" text="Select" onAction="#handleSelect"/>
+</VBox>

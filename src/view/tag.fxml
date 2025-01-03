@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"  fx:controller="controller.tagController">
+    <ComboBox fx:id="tagComboBox" promptText="Select or create tag"/>
+    <TextField fx:id="newTagField" promptText="Enter new tag" visible="false"/>
+    <TextField fx:id="valueField" promptText="Enter value"/>
+    <Button text="Add" onAction="#handleAddTag"/>
+</VBox>
